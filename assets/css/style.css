@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+.Poppins {
+    font-family: "Poppins";
+}
+
+.section-1 {
+    background-image: url(../img/section1-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar-brand {
+    color: rgba(44, 73, 254);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48.6px;
+}
+
+.free {
+    color: rgba(1, 200, 255);
+}
+
+.nav-item {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.nav-item a:hover {
+    color: rgba(44, 73, 254) !important;
+    background-color: unset !important;
+}
+
+.nav-btn {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    background-color: rgba(44, 73, 254);
+    border: none;
+    border-radius: 23px;
+    padding: 10px 20px;
+}
+.nav-btn:hover{
+    background-color: #fff;
+    color:  rgba(44, 73, 254) !important;
+}
+button[aria-expanded="false"] span.lines {
+    display: block !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button[aria-expanded="false"] span.cross {
+    display: none !important;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+@media (min-width:992px) {
+    .nav-item{
+        padding-right: 25px;
+    }
+}
