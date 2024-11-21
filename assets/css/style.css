@@ -157,7 +157,11 @@ button[aria-expanded="false"] span.cross {
 }
 
 @media (max-width:992px) {
-    .blue-line {
-        display: none;
+
+    .blue-line{
+display: none !important;
+    }
+    .blue-box{
+        border-radius: 0px !important;
     }
 }
