@@ -19,7 +19,16 @@ a {
 .mb-80 {
     margin-bottom: 80px;
 }
+.fw-700{
+    font-weight: 700;
+}
+.fs-16{
+    font-size: 18px;
+}
 
+.color-77{
+    color: rgba(77, 77, 77);
+}
 .section-1 {
     background-image: url(../img/section1-img.png);
     background-repeat: no-repeat;
@@ -257,6 +266,32 @@ button[aria-expanded="false"] span.cross {
     max-width: 920px !important;
 }
 
+/* section-4 */
+.section4-heading{
+font-size: 48px;
+font-weight: 700;
+line-height: 65.52px;
+}
+
+.section4-para{
+    max-width: 543px;
+    color: rgba(77, 77, 77);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.section4-card-heading{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.section4-card-p{
+    line-height: 24px;
+}
+
+.section-4 .card:hover{
+box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
+} 
 /* media query */
 @media (min-width:992px) {
     .nav-item {
