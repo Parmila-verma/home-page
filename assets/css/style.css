@@ -292,6 +292,47 @@ line-height: 65.52px;
 .section-4 .card:hover{
 box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
 } 
+
+/* section-5 */
+
+.section5-heading{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+}
+
+.form-heading{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52.5px;
+}
+
+.form-about{
+     resize: none !important;
+}
+
+.section5-btn{
+    background-color: rgba(44,73,254);
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+input{
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 17px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.4)
+}
+
+.form-about{
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.4)
+}
 /* media query */
 @media (min-width:992px) {
     .nav-item {
