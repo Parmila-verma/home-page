@@ -82,12 +82,13 @@ a {
 
 button[aria-expanded="false"] span.lines {
     display: block !important;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAbFBMVEUAAAD////CwsJhYWFSUlKvr698fHxCQkJISEiUlJSgoKD09PTOzs4EBATx8fH8/PyGhoYuLi7h4eG2trZubm7o6OhaWlqpqamNjY2YmJhWVlY7OzvGxsY0NDRgYGDZ2dkVFRVqamoXFxcjIyOKMNFXAAADYklEQVR4nO2d227bMBBE6bstl3Lka53Gbdr+/z9WdGy0ffAusYHBHWoOkKeEwB6ToixyxITT19W/NP+zWsH/NnShdhalC3g6wzCMpYt4KsPow7qhIT40xIeG+NAQn2XpAp4ODfGhIT40xIeG+NAQHxriQ0N86n8+pCE+NMSHhvjQEB8a4oNvqOUs8A01aHjcjV0zVw0fPh/GnrBfj9xz7q/EKFyMj5+A+0avpavX2YxGL6k3bIbdtnT9Kpv0MxUnVGGUhnnp+jPZ2UZp32hXuvRMWuN1GMKX0qVnshYcaIgBDWnoHxrS0D9DN5SeD2noBRrS0D80pKF/aEhD/9CQhv4ZuqG05o1jKO0DSzszlRtC9aHEY8MQmtKlZ7I17z3tS5eeiXF3LfGW2m9KC2i03yQHaaaJoVv3gq4NU3UTOVMjXYchdDP3UYW3V2tSoW+UmnXLqWNel5dUphiLEvpQaemFVKR5pqkCGuJDQ3z09KXrCVWaRG8ohlEMxRUn54YmG3q2u/PJFHS3b2aeaebqZSb/wfcfpb92qhxWdsMYJqXLz6KR55vHhjFc/CdoE+ujqCiNUqAErakPQ5iVLj2Tta0P+zb+p5kP5NXE+te8aYgADWs3rD+bSEMEaEhD/9CQhv6hIQ39Q0Ma+mfoz4c0RICGgzWMt+AeANY1b6gErWnfIlaSoJVG6cR18PIvZ/MojRibT+3CNkqvrQ6lq1e4H6IkId0tYrjMWt8jdbMZH2VB8TpMvE/mntl3H7Ua9/GzQlWluZZommmun4t3wZud2If1ZxNpiA8N8RHft5APlXSBXqB4uqd7v4R2U5P7MHQvp9IhWZmV/LVbMrxKzv3nL9tG9FPezvvp/u3D9HbeOdhOaO1ZtKUF8pgY+xApQWvrwwiUoLX1IdRa26ANB7zmTUNH0JCG/qEhDf1DQxr6h4Y09M/Qs4k0RICGNPQPDWnoHxo+IN4Nne+vjT6zqo+SoD2YzxHGOGLomqA17q69j0vXnsX2YjWM4RfEJvBUDsUoh4GdvKeE2/Fv2UA9VfAy8Y1+KiJ8glZFO1XQ+VG7GSlftQ+9C6rwf6vjQ0N8aIgPDfGhIT4Dft+iGmiIDw3xoSE+NMSHhvjQEJ/6Det/PqQhPjTEh4b40BAfGuJDQ3xoCM8f5FR/3eIprAIAAAAASUVORK5CYII=");
     width: 1.5rem;
     height: 1.5rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    mix-blend-mode: normal;
 }
 
 button[aria-expanded="false"] span.cross {
@@ -100,9 +101,15 @@ button[aria-expanded="false"] span.cross {
     max-width: 1020px;
 }
 
-img[alt="cross"]{
-    mix-blend-mode: multiply !important;
+img[alt="line"]{
+    height: 20px !important;
+    width: 20px !important;
+        mix-blend-mode: multiply !important;
+    
 }
+ /* img[alt="cross"]{
+    mix-blend-mode: multiply !important;
+}  */
 
 .content-box {
     max-width: 1044px;
@@ -369,7 +376,7 @@ li a{
 
 }
 
-@media (max-width:576px) {
+@media (max-width:575.98px) {
     .section2-box {
         padding: 20px !important;
     }
@@ -377,4 +384,11 @@ li a{
     .down-box {
         margin-left: 50px;
     }
+
+    .navbar-brand
+    {
+        font-size: 16px !important;
+    }
+
+
 }
