@@ -3,7 +3,6 @@
 .Poppins {
     font-family: "Poppins";
 }
-
 .Yantramanav {
     font-family: "Yantramanav";
 }
@@ -99,6 +98,10 @@ button[aria-expanded="false"] span.cross {
     background-repeat: no-repeat;
     background-size: 100%;
     max-width: 1020px;
+}
+
+img[alt="cross"]{
+    mix-blend-mode: multiply !important;
 }
 
 .content-box {
@@ -245,16 +248,6 @@ button[aria-expanded="false"] span.cross {
     max-width: 708px !important;
 }
 
-/* 
-.section-3::before{
-    content: "";
-    position: absolute;
-    top: 0px !important;
-    height: 100%;
-    width: 100%;
-    background: rgba(44, 73, 254, 0.8);
-} */
-
 .body {
     background: rgba(44, 73, 254, 0.8);
 }
@@ -348,7 +341,7 @@ input{
 
 li {
 list-style: none;
-padding-bottom: 10px;
+padding-bottom: 20px;
 font-size: 12px;
 font-weight: 400;
 line-height: 18px;
