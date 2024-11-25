@@ -346,6 +346,12 @@ img[alt="line"] {
     line-height: 24px;
 }
 
+.section5-btn:hover{
+    background-color: #fff;
+    color: rgba(44, 73, 254) !important;
+    border: 1px solid rgba(44, 73, 254) !important;
+}
+
 input {
     font-family: "Poppins";
     font-size: 16px;
