@@ -33,11 +33,11 @@ a {
 }
 
 .fs-16 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .color-77 {
-    color: rgba(77, 77, 77);
+    color: var(--color-grey);
 }
 
 .section-1 {
@@ -58,7 +58,7 @@ a {
 }
 
 .navbar-brand {
-    color: rgba(44, 73, 254) !important;
+    color: var(--color-blue) !important;
     font-size: 36px !important;
     font-weight: 700;
     line-height: 48.6px;
@@ -69,7 +69,7 @@ a {
 }
 
 .nav-item {
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 400;
     line-height: 24px;
 }
@@ -79,24 +79,23 @@ a {
 }
 
 .nav-item a:hover {
-    color: rgba(44, 73, 254) !important;
+     color: var(--color-blue) !important;
     background-color: unset !important;
 }
 
 .nav-btn {
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 600;
     line-height: 24px;
-    background-color: rgba(44, 73, 254);
-    border: none;
+    background-color: var(--bg-blue);
     border-radius: 23px;
     padding: 10px 20px;
 }
 
 .nav-btn:hover,
 .get-btn:hover {
-    background-color: #fff;
-    color: rgba(44, 73, 254) !important;
+    background-color:var(--bg-white);
+     color: var(--color-blue) !important;
 }
 
 button[aria-expanded="false"] span.lines {
@@ -141,15 +140,15 @@ img[alt="line"] {
 }
 
 .content-para {
-    font-size: 20px;
+    font-size: var(--fs-20);
     font-weight: 400;
     line-height: 25.94px;
     max-width: 765px;
 }
 
 .get-btn {
-    background-color: rgba(44, 73, 254);
-    font-size: 20px;
+    background-color: var(--bg-blue);
+    font-size: var(--fs-20);
     font-weight: 600;
     line-height: 30px;
     border-radius: 28px;
@@ -157,7 +156,7 @@ img[alt="line"] {
 }
 
 .para-link {
-    font-size: 20px;
+    font-size: var(--fs-20);
     font-weight: 400;
     line-height: 30px;
 }
@@ -171,21 +170,21 @@ img[alt="line"] {
 }
 
 .svg-heading {
-    font-size: 20px;
+    font-size: var(--fs-20);
     font-weight: 500;
     line-height: 25.94px;
 }
 
 .svg-subheading {
-    font-size: 14px;
+    font-size: var(--fs-14);
     font-weight: 400;
     line-height: 18.16px;
 }
 
 .go-btn {
-    background-color: #fff;
-    color: rgba(44, 73, 254) !important;
-    font-size: 20px;
+    background-color:var(--bg-white);
+     color: var(--color-blue) !important;
+    font-size: var(--fs-20);
     font-weight: 700;
     line-height: 30px;
     padding: 10px 20px;
@@ -193,8 +192,8 @@ img[alt="line"] {
 }
 
 .go-btn:hover {
-    color: #fff !important;
-    background-color: rgba(44, 73, 254);
+    color:var(--color-white)!important;
+    background-color: var(--bg-blue);
 }
 
 /* section-2 */
@@ -206,23 +205,23 @@ img[alt="line"] {
 }
 
 .section2-para {
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 400;
     line-height: 24px;
-    color: rgba(77, 77, 77);
+    color: var(--color-grey);
 }
 
 .section2-box {
     max-width: 260px !important;
     color: rgba(45, 60, 174);
-    border: 1px solid rgba(44, 73, 254);
+    border: 1px solid var(--color-blue);
     padding: 20px 30px;
     border-radius: 5px;
 }
 
 .section2-box:hover {
-    background: rgba(44, 73, 254);
-    color: #fff;
+    background-color: var(--bg-blue);
+    color:var(--color-white);
 }
 
 .down-box {
@@ -239,9 +238,9 @@ img[alt="line"] {
     height: 79px;
     width: 79px;
     border-radius: 50%;
-    border: 1px solid rgba(44, 73, 254);
+    border: 1px solid var(--color-blue);
     z-index: 2 !important;
-    background-color: #fff !important;
+    background-color:var(--bg-white);
 }
 
 .max-width-220 {
@@ -282,7 +281,7 @@ img[alt="line"] {
 
 .section3-para {
     max-width: 865px !important;
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 400;
     line-height: 24px;
 }
@@ -300,8 +299,8 @@ img[alt="line"] {
 
 .section4-para {
     max-width: 543px;
-    color: rgba(77, 77, 77);
-    font-size: 16px;
+    color: var(--color-grey);
+    font-size: var(--fs-16);
     font-weight: 400;
     line-height: 24px;
 }
@@ -339,22 +338,22 @@ img[alt="line"] {
 }
 
 .section5-btn {
-    background-color: rgba(44, 73, 254);
+    background-color: var(--bg-blue);
     border-radius: 30px;
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 600;
     line-height: 24px;
 }
 
 .section5-btn:hover{
-    background-color: #fff;
-    color: rgba(44, 73, 254) !important;
-    border: 1px solid rgba(44, 73, 254) !important;
+    background-color:var(--bg-white);
+    color:var(--color-blue) !important;
+    border: 1px solid var(--color-blue) !important;
 }
 
 input {
     font-family: "Poppins";
-    font-size: 16px;
+    font-size: var(--fs-16);
     font-weight: 400;
     line-height: 24px;
     padding: 10px 17px;
@@ -369,7 +368,7 @@ input {
 
 /* footer */
 .footer-para {
-    font-size: 14px;
+    font-size: var(--fs-14);
     font-weight: 400;
     line-height: 21px;
     max-width: 346px;
@@ -378,13 +377,13 @@ input {
 li {
     list-style: none;
     padding-bottom: 20px;
-    font-size: 12px;
+    font-size: var(--fs-12);
     font-weight: 400;
     line-height: 18px;
 }
 
 li a {
-    color: #fff;
+    color:var(--color-white);
 }
 
 /* media query */
@@ -426,7 +425,7 @@ li a {
     }
 
     .navbar-brand {
-        font-size: 16px !important;
+        font-size: var(--fs-16)!important;
     }
 
     .go-btn {
