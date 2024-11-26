@@ -23,7 +23,12 @@ a {
 .mb-80 {
     margin-bottom: 80px;
 }
-
+.w-30{
+    width: 30px;
+}
+.h-20{
+    height: 20px;
+}
 .footer-bg {
     background-color: rgba(24, 32, 92);
 }
