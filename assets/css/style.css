@@ -167,6 +167,7 @@ img[alt="line"] {
     max-width: 900px;
     width: 100%;
     margin-top: 100px !important;
+    margin-left: 1px !important;
 }
 
 .svg-heading {
@@ -411,6 +412,11 @@ li a {
     .section-1 ul {
         align-items: center !important;
     }
+    .section2-heading,
+    .section3-heading,
+    .section4-heading {
+        font-size: 35px;
+    }
 
 
 }
@@ -431,5 +437,7 @@ li a {
     .go-btn {
         float: right !important;
     }
-
+.get-btn{
+        padding: 10px 15px;
+}
 }

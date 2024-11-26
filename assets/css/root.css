@@ -1,12 +1,12 @@
 :root{
-    --fs-sm:16px;
-    --fs-md:25px;
-    --fs-lg:40px;
+    --fs-sm:18px;
+    --fs-md:30px;
+    --fs-lg:64px;
 }
+.fs-md{
+    font-size: var(--fs-md);
+} 
 
-.fs{
-    font-size: var();
-}
 
 /* color */
 :root{
@@ -27,15 +27,20 @@
     --fs-12:12px;
 }
 
-@media (min-width:576px) {
- :root {
-     --fs-sm: 16px;
-     --fs-md: 25px;
-     --fs-lg: 40px;
- }
+@media (max-width:992px) {
+ 
+    :root {
+        --fs-md: 30px;
+        --fs-lg: 48px;
+    }
+   .fs {
+       font-size: var(--fs-md);
+   }
+}
+@media (max-width:576px) {
+    .fs{
+        font-size: var(--fs-sm);
+    }
+}
 
-.fs{
-    font-size: var();
-}
-}
 
